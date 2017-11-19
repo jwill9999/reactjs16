@@ -17,17 +17,23 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "format": "prettier-eslint \"src/**/*.js\"",
+    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
   "devDependencies": {
+    "babel-eslint": "^8.0.2",
     "eslint": "^4.11.0",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^2.7.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-jsx": "0.0.2",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.4.0",
-    "prettier": "^1.8.2"
-  }
+    "eslint-plugin-react": "^7.5.0",
+    "prettier": "^1.8.2",
+    "prettier-eslint": "^8.2.2",
+    "prettier-eslint-cli": "^4.4.0"
+  },
+  "proxy": "http://localhost:8080"
 }
