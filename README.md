@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jwill9999/reactjs16.svg?branch=master)](https://travis-ci.org/jwill9999/reactjs16)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
