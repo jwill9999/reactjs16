@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "as": "form",
+      "children": Array [
+        <FormField
+          error={false}
+>
+          <label
+                    htmlFor="email"
+          >
+                    Email
+          </label>
+          <input
+                    id="email"
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="email@test.com"
+                    type="email"
+                    value=""
+          />
+</FormField>,
+        <FormField
+          error={false}
+>
+          <label
+                    htmlFor="password"
+          >
+                    Password
+          </label>
+          <input
+                    id="password"
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="Password"
+                    type="password"
+                    value=""
+          />
+</FormField>,
+        <Button
+          as="button"
+          primary={true}
+          type="submit"
+>
+          Submit
+</Button>,
+      ],
+      "onSubmit": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <label
+              htmlFor="email"
+>
+              Email
+</label>,
+            <input
+              id="email"
+              name="email"
+              onChange={[Function]}
+              placeholder="email@test.com"
+              type="email"
+              value=""
+/>,
+            undefined,
+          ],
+          "error": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Email",
+              "htmlFor": "email",
+            },
+            "ref": null,
+            "rendered": "Email",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "email",
+              "name": "email",
+              "onChange": [Function],
+              "placeholder": "email@test.com",
+              "type": "email",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          undefined,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <label
+              htmlFor="password"
+>
+              Password
+</label>,
+            <input
+              id="password"
+              name="password"
+              onChange={[Function]}
+              placeholder="Password"
+              type="password"
+              value=""
+/>,
+            undefined,
+          ],
+          "error": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Password",
+              "htmlFor": "password",
+            },
+            "ref": null,
+            "rendered": "Password",
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "id": "password",
+              "name": "password",
+              "onChange": [Function],
+              "placeholder": "Password",
+              "type": "password",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          undefined,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "as": "button",
+          "children": "Submit",
+          "primary": true,
+          "type": "submit",
+        },
+        "ref": null,
+        "rendered": "Submit",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "as": "form",
+        "children": Array [
+          <FormField
+            error={false}
+>
+            <label
+                        htmlFor="email"
+            >
+                        Email
+            </label>
+            <input
+                        id="email"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="email@test.com"
+                        type="email"
+                        value=""
+            />
+</FormField>,
+          <FormField
+            error={false}
+>
+            <label
+                        htmlFor="password"
+            >
+                        Password
+            </label>
+            <input
+                        id="password"
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="Password"
+                        type="password"
+                        value=""
+            />
+</FormField>,
+          <Button
+            as="button"
+            primary={true}
+            type="submit"
+>
+            Submit
+</Button>,
+        ],
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="email"
+>
+                Email
+</label>,
+              <input
+                id="email"
+                name="email"
+                onChange={[Function]}
+                placeholder="email@test.com"
+                type="email"
+                value=""
+/>,
+              undefined,
+            ],
+            "error": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Email",
+                "htmlFor": "email",
+              },
+              "ref": null,
+              "rendered": "Email",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "email",
+                "name": "email",
+                "onChange": [Function],
+                "placeholder": "email@test.com",
+                "type": "email",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            undefined,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <label
+                htmlFor="password"
+>
+                Password
+</label>,
+              <input
+                id="password"
+                name="password"
+                onChange={[Function]}
+                placeholder="Password"
+                type="password"
+                value=""
+/>,
+              undefined,
+            ],
+            "error": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Password",
+                "htmlFor": "password",
+              },
+              "ref": null,
+              "rendered": "Password",
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "id": "password",
+                "name": "password",
+                "onChange": [Function],
+                "placeholder": "Password",
+                "type": "password",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            undefined,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "as": "button",
+            "children": "Submit",
+            "primary": true,
+            "type": "submit",
+          },
+          "ref": null,
+          "rendered": "Submit",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
