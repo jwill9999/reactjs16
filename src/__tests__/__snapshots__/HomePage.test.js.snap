@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoginPage renders without crashing 1`] = `
+exports[`HomePage renders without crashing 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -22,6 +22,7 @@ ShallowWrapper {
           Home Page
 </h1>,
         <Link
+          id="link"
           replace={false}
           to="/login"
 >
@@ -48,6 +49,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "children": "Login",
+          "id": "link",
           "replace": false,
           "to": "/login",
         },
@@ -69,6 +71,7 @@ ShallowWrapper {
             Home Page
 </h1>,
           <Link
+            id="link"
             replace={false}
             to="/login"
 >
@@ -95,6 +98,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": "Login",
+            "id": "link",
             "replace": false,
             "to": "/login",
           },

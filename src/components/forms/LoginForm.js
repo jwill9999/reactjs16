@@ -51,7 +51,11 @@ class LoginForm extends Component {
             name="email"
             placeholder="email@test.com"
             value={data.email}
-            onChange={this.onChange}
+            onChange={e =>
+              this.setState({
+                data: { ...this.state.data, [e.target.name]: e.target.value }
+              })
+            }
           />
           {errors.email && <InLineError text={errors.email} />}
         </Form.Field>
