@@ -55,6 +55,7 @@ ShallowWrapper {
 </FormField>,
         <Button
           as="button"
+          disabled={true}
           primary={true}
           type="submit"
 >
@@ -186,6 +187,7 @@ ShallowWrapper {
         "props": Object {
           "as": "button",
           "children": "Submit",
+          "disabled": true,
           "primary": true,
           "type": "submit",
         },
@@ -240,6 +242,7 @@ ShallowWrapper {
 </FormField>,
           <Button
             as="button"
+            disabled={true}
             primary={true}
             type="submit"
 >
@@ -371,6 +374,7 @@ ShallowWrapper {
           "props": Object {
             "as": "button",
             "children": "Submit",
+            "disabled": true,
             "primary": true,
             "type": "submit",
           },

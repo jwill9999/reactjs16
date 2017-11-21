@@ -5,14 +5,17 @@ import Validator from "validator";
 import InLineError from "../messages/errors/InlineError";
 
 class LoginForm extends Component {
-  state = {
-    data: {
-      email: "",
-      password: ""
-    },
-    loading: false,
-    errors: {}
-  };
+  constructor() {
+    super();
+    this.state = {
+      data: {
+        email: "",
+        password: ""
+      },
+      loading: false,
+      errors: {}
+    };
+  }
 
   onChange = e => {
     this.setState({
@@ -37,6 +40,11 @@ class LoginForm extends Component {
     if (!Validator.isEmail(data.email))
       errors.email = "Invalid email configuration";
     return errors;
+  };
+
+  disableSubmitButton = () => {
+    const { email, password } = this.state.data;
+    return !email || !password;
   };
 
   render() {
@@ -71,7 +79,7 @@ class LoginForm extends Component {
           />
           {errors.password && <InLineError text={errors.password} />}
         </Form.Field>
-        <Button primary type="submit">
+        <Button disabled={this.disableSubmitButton()} primary type="submit">
           Submit
         </Button>
       </Form>
